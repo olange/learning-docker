@@ -1,5 +1,12 @@
 # Learning Trail
 
+## 01.05.2015 · Getting the generic provider
+
+* Checked-out [Docker Machine's source code](https://github.com/docker/machine) and merged the [PR/406 pull request](https://github.com/docker/machine/pull/406) of the generic provider
+* Started the `dev` Docker Machine with `docker-machine start dev`
+* Compiled the Docker Machine with PR/406 with `script/build -osarch="darwin/amd64"` -- interestingly, it compiles within a container, instancied from an image containing all executables required to compile the sources, which demonstrates a nice use case of Docker
+* Started looking at the generic driver parameters available in the newly compiled `docker-machine` executable, that supports a new `--driver generic` argument
+
 ## 30.04.2015 · Understanding Docker Machine
 
 * Watched video [Demo of Docker Machine Beta](https://www.youtube.com/watch?v=ePwmiS7GAxQ) (7:47 min)
