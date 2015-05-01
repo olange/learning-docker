@@ -1,9 +1,20 @@
 # Learning Trail
 
-## 18+30.04.2015
+## 30.04.2015 · Understanding Docker Machine
 
-* Installed [Kitematic](https://kitematic.com/) on my laptop and instanciated an [Ubuntu 14.04](https://registry.hub.docker.com/_/ubuntu/) container from the Docker hub
-* Read [Ubuntu Docker installation instructions](http://docs.docker.com/installation/ubuntulinux/)
-* Read [Orchestrating Docker with Machine, Swarm and Compose](http://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-compose/), [Announcing Docker Machine](http://blog.docker.com/2015/02/announcing-docker-machine-beta/), [Announcing Docker Compose](http://blog.docker.com/2015/02/announcing-docker-compose/) and [Scaling Docker with Swarm](http://blog.docker.com/2015/02/scaling-docker-with-swarm/)
 * Watched video [Demo of Docker Machine Beta](https://www.youtube.com/watch?v=ePwmiS7GAxQ) (7:47 min)
 * Read the [Docker Machine User Guide](https://docs.docker.com/machine/)
+* Installed `docker-machine` with HomeBrew
+* Logged into the VM named `dev` installed by Kitematic with `docker-machine ssh dev` (without launching Kitematic)
+* Created a new local VM named `test` with `docker-machine create --driver virtualbox test`
+* Upgraded the Boot2Docker ISO image of Kitematic to latest version 1.6.0 with `docker-machine upgrade dev`
+* Ran a [busybox](https://registry.hub.docker.com/_/busybox/) container with `docker run` on both `dev` and `test` VMs
+* Instanciated two [nginx](https://registry.hub.docker.com/_/nginx/) containers with `docker run -d` on both `dev` and `test` VMs
+* Read about a [generic provider](https://github.com/docker/machine/pull/406) (Pull request #406), that would allow to «create» a docker engine within a remote dedicated server
+
+## 18.04.2015 · Discovering Docker and its toolchain
+
+* Installed [Kitematic](https://kitematic.com/) on my MacBook and instanciated an [Ubuntu 14.04](https://registry.hub.docker.com/_/ubuntu/) container from the Docker hub; had to upgrade VirtualBox to the current 4.3.26 version, Kitematic would not start with my existing VirtualBox 4.2
+* Read [Docker installation instructions for Ubuntu](http://docs.docker.com/installation/ubuntulinux/)
+* Read [Orchestrating Docker with Machine, Swarm and Compose](http://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-compose/), [Announcing Docker Machine](http://blog.docker.com/2015/02/announcing-docker-machine-beta/), [Announcing Docker Compose](http://blog.docker.com/2015/02/announcing-docker-compose/) and [Scaling Docker with Swarm](http://blog.docker.com/2015/02/scaling-docker-with-swarm/), which rose my interest in Docker
+* Read [Boycott Docker](http://www.boycottdocker.org) 
