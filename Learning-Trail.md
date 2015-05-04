@@ -1,5 +1,11 @@
 # Learning Trail
 
+## 04.05.2015
+
+* [Online Tutorial](https://www.docker.com/tryit/) a 10 min. walkthru basic `search`, `ps`, `inspect`, `images` commands, and `pull`, `run`, `commit` and `push` workflow
+* Watched the intro video [What is Docker?](https://youtu.be/ZzQfxoMFH0U) by Solomon Hykes, Docker’s Founder & CTO (7 min.)
+* Read about [Docker and Ansible](http://www.ansible.com/docker)
+
 ## 01.05.2015 · Getting the generic provider
 
 * Checked-out [Docker Machine's source code](https://github.com/docker/machine) and merged the [PR/406 pull request](https://github.com/docker/machine/pull/406) of the generic provider
