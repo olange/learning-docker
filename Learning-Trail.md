@@ -3,7 +3,7 @@
 ## 04.05.2015
 
 * [Online Tutorial](https://www.docker.com/tryit/) a 10 min. walkthru basic `search`, `ps`, `inspect`, `images` commands, and `pull`, `run`, `commit` and `push` workflow
-* Watched the intro video [What is Docker?](https://youtu.be/ZzQfxoMFH0U) by Solomon Hykes, Docker’s Founder & CTO (7 min.)
+* Watched the intro video [What is Docker?](https://youtu.be/ZzQfxoMFH0U) by Solomon Hykes, Docker’s Founder & CTO (7 min.) « […] Docker is a new unit of delivery […] It allows to ship an app with its external libraries; if two apps are needing two conflicting versions of a library from the host, you do not have to worry: both versions of the library will run side by side, each in a container. […] »
 * Read about [Docker and Ansible](http://www.ansible.com/docker)
 
 ## 01.05.2015 · Getting the generic provider
