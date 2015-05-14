@@ -1,5 +1,10 @@
 # Learning Trail
 
+## 13.05.2015
+
+* [Read «Understanding Docker»](https://docs.docker.com/introduction/understanding-docker/)
+* Started reading [«Docker User Guide»](https://docs.docker.com/userguide/): [Dockerizing Applications: a "Hello world"](https://docs.docker.com/userguide/dockerizing), [Working with Containers](https://docs.docker.com/userguide/usingdocker), [Working with Docker Images](https://docs.docker.com/userguide/dockerimages)
+
 ## 04.05.2015
 
 * [Online Tutorial](https://www.docker.com/tryit/) a 10 min. walkthru basic `search`, `ps`, `inspect`, `images` commands, and `pull`, `run`, `commit` and `push` workflow
