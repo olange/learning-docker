@@ -1,5 +1,10 @@
 # Learning Trail
 
+## 14.05.2015
+
+* Created a Dockerfile to build an [Ubuntu Trusty with Oracle JDK7](tree/master/images/ubuntu-oracle-jdk/trusty-JDK7) image -- a mere copy of [n3ziniuka5/ubuntu-oracle-jdk](https://registry.hub.docker.com/u/n3ziniuka5/ubuntu-oracle-jdk/dockerfile/)
+* Read [Dockerfile](https://docs.docker.com/reference/builder/) documentation
+
 ## 13.05.2015
 
 * [Read «Understanding Docker»](https://docs.docker.com/introduction/understanding-docker/)
