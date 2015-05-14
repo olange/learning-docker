@@ -2,8 +2,9 @@
 
 ## 14.05.2015
 
-* Created a Dockerfile to build an [Ubuntu Trusty with Oracle JDK7](tree/master/images/ubuntu-oracle-jdk/trusty-JDK7) image -- a mere copy of [n3ziniuka5/ubuntu-oracle-jdk](https://registry.hub.docker.com/u/n3ziniuka5/ubuntu-oracle-jdk/dockerfile/)
+* Created a Dockerfile to build an [Ubuntu Trusty with Oracle JDK7](images/ubuntu-oracle-jdk/trusty-JDK7) image -- a mere copy of [n3ziniuka5/ubuntu-oracle-jdk](https://registry.hub.docker.com/u/n3ziniuka5/ubuntu-oracle-jdk/dockerfile/)
 * Read [Dockerfile](https://docs.docker.com/reference/builder/) documentation
+* Read [Linking containers together](https://docs.docker.com/userguide/dockerlinks/) from the [«Docker User Guide»](https://docs.docker.com/userguide/)
 
 ## 13.05.2015
 
