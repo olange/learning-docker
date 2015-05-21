@@ -1,5 +1,10 @@
 # Learning Trail
 
+## 21.05.2015
+
+* Read [Managing Data Volumes in containers](http://docs.docker.com/userguide/dockervolumes/) from the documentation
+* Playing with data volumes, mounting host folders from the host and backuping data
+ 
 ## 14.05.2015
 
 * Created a Dockerfile to build an [Ubuntu Trusty with Oracle JDK7](images/ubuntu-oracle-jdk/trusty-JDK7) image -- a mere copy of [n3ziniuka5/ubuntu-oracle-jdk](https://registry.hub.docker.com/u/n3ziniuka5/ubuntu-oracle-jdk/dockerfile/)
