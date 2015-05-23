@@ -1,9 +1,11 @@
 # Learning Trail
 
-## 21.05.2015
+## 21-23.05.2015
 
+* Read [Protecting the Docker daemon Socket with HTTPS](http://docs.docker.com/articles/https/)
+* Installed the Docker Engine with LXC on an Ubuntu host + firewall setup
 * Read [Managing Data Volumes in containers](http://docs.docker.com/userguide/dockervolumes/) from the documentation
-* Playing with data volumes, mounting host folders from the host and backuping data
+* Played with data volumes, mounting host folders from the host and backuping data
  
 ## 14.05.2015
 
