@@ -1,5 +1,9 @@
 # Learning Trail
 
+## 04.06.2015
+
+* Built a [Redis/Flask App](https://github.com/olange/learning-docker/tree/master/compositions/redis-flask-app) with [Docker Compose](https://docs.docker.com/compose/) (just following the tutorial)
+
 ## 21-23.05.2015
 
 * Read [Protecting the Docker daemon Socket with HTTPS](http://docs.docker.com/articles/https/)
