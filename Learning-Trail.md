@@ -1,5 +1,11 @@
 # Learning Trail
 
+## 18.06.2015
+
+* Read [Working with Docker Hub]((https://docs.docker.com/userguide/dockerrepos/)) and setup an automated build [olange/ubuntu-oracle-jdk7] (which currently fails) from GitHub repo [olange/learning-docker/images/ubuntu-oracle-jdk/trusty-JDK7](https://github.com/olange/learning-docker/blob/master/images/ubuntu-oracle-jdk/trusty-JDK7/Dockerfile)
+* Created a new MySQL image based on Ubuntu Trusty -- once again, a mere copy of the official 
+[mysql:5.5](https://github.com/docker-library/mysql/blob/9041eeb49d92368fcbad87dc45957afea0c5662b/5.5/Dockerfile), but based on Ubuntu Trusty (rather than Debian Weezer)
+
 ## 04.06.2015
 
 * Built a [Redis/Flask App](https://github.com/olange/learning-docker/tree/master/compositions/redis-flask-app) with [Docker Compose](https://docs.docker.com/compose/) (just following the tutorial)
