@@ -10,9 +10,9 @@ RUN echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-sel
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends software-properties-common && \
-    add-apt-repository ppa:webupd8team/java && \
+    add-apt-repository -y ppa:webupd8team/java && \
     apt-get update && \
-    apt-get install -y --no-install-recommends oracle-java7-installer=7u80+7u60arm-0~webupd8~0
+    apt-get install -y --no-install-recommends oracle-java7-installer
 
 # Run the following command to build the image:
 #   docker build -t olange/ubuntu-oracle-jdk:trusty-JDK7 .
